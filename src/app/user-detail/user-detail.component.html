@@ -1,0 +1,22 @@
+<div class="detail" *ngIf="userDetails">
+<ul>
+    <li>Id: {{userDetails.id}}</li>
+    <li>Name: {{userDetails.name}}</li>
+    <li>Surname: {{userDetails.surname}}</li>
+    <li>Age: {{userDetails.age}}</li>
+    <li>Date Of Birth: {{userDetails.dateOfBirth | date: 'dd MMM yyyy'}}</li>
+    <li><strong>Address:</strong></li>
+    <li>City: {{userDetails.address.city}}</li>
+    <li>Street: {{userDetails.address.street}}</li>
+    <li>Postal Code: {{userDetails.address?.postalCode}}</li>
+    <li>Role: {{userDetails.role}}</li>
+    <li>Username: {{userDetails.username}}</li>
+    <li><img src={{userDetails.profilePhotoUrl}}></li>
+    <li>Gender: {{userDetails.gender}}</li>
+    <li *ngIf="userDetails.companies"><b>Company: {{userDetails.companies[0].name}}</b></li>
+    <li *ngIf="userDetails.companies">Description: {{userDetails.companies[0].description}}</li>
+    <li *ngIf="userDetails.companies"><b>Company: {{userDetails.companies[1].name}}</b></li>
+    <li *ngIf="userDetails.companies">Description: {{userDetails.companies[1].description}}</li>
+</ul>
+<div id="buttonDiv"><button (click)="close.emit()">Close</button></div>
+</div>

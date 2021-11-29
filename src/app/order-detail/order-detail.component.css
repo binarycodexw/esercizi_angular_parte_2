@@ -1,0 +1,15 @@
+#order-detail {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: #cdeb8b;
+    margin-top: 20px;
+    margin: 20px auto;
+    border-width: 1.5px;
+    border-color: #596159;
+    border-style: solid;
+}
+
+#order-detail p { 
+margin: auto;    
+}

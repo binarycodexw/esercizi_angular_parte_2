@@ -1,0 +1,33 @@
+.contenitoreInput {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenitoreInput img{
+    height: 15vh;
+    margin: 10px 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: auto 10px;
+}
+
+.strongP {
+    font-weight: bolder;
+}
+
+#user-profile-image {
+    height: 10vh;
+}
+
+button {
+    margin: auto;
+    height: 4vh;
+    width: 4vw;
+    margin-right: 50px;
+}

@@ -1,0 +1,39 @@
+#order-single {
+    background-color: #bac8d3;
+    margin-top: 20px;
+    height: 15vh;
+    width: 40vw;
+
+    border-width: 1.5px;
+    border-color: #9673a6;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+#contenitore-p-order-single {
+    position: absolute;
+    width: 50vw;
+}
+
+#contenitore-p-order-single p{
+    text-align: center;
+}
+
+#container-app-user-single {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#container-app-user-single app-user-single {
+   width: 400px;
+}
+
+#container-app-user-single app-order-detail {
+    width: 400px;
+ }

@@ -1,0 +1,45 @@
+#user-detail {
+    width: 19vw;
+    height: 70vh;
+    margin-top:  100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: #fff2cc;
+    border-width: 1.5px;
+    border-color: #9bc38a;
+    border-style: solid;
+}
+
+.detail{
+    background-color: #fff2cc;
+    width: 20vw;
+    height: 70vh;
+    margin-top: 100px;
+    border: solid #d6b656 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 10vh;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 6vh;
+    width: 8vw;
+}

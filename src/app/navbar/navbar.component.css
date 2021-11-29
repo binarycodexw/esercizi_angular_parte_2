@@ -1,0 +1,42 @@
+#menu {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    display: flex;
+
+}
+
+#divBottoniMenu {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 5vh;
+    width: 5vw;
+    margin-right: 10px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    justify-content: center;
+}
+
+#userButton {
+background-color: #a9d8f1;
+border: solid #7ab3d7 2px;
+}
+
+#userButton:hover{
+    background-color: #5ba4ce;
+}
+
+#orderButton{
+    background-color: #f8cecc;
+    border: solid #c4a1a0 2px;
+}
+
+#orderButton:hover{
+    background-color: #d78a86;
+}

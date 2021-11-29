@@ -1,0 +1,11 @@
+<div class="contenitoreInput">
+        <img id="user-profile-image" [src] ="user.profilePhotoUrl">
+        <p class="strongP">{{ user.name }}</p>
+        <p class="strongP">{{ user.surname }}</p>
+        <p>{{ user.age }}</p>
+        <p>{{ user.address.city }}</p>
+        <div>
+        <button (click)="detailsClick.emit(user)" >Details</button>
+        <button (click)="deleteClick.emit(user)">Delete</button>
+        </div>
+    </div>

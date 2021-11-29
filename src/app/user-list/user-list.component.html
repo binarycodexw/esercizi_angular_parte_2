@@ -1,0 +1,6 @@
+<div id="user-list">
+    <p>user-list.component</p>
+    <div class="iterator" *ngFor="let user of users">
+        <app-user-single [user]="user" (detailsClick)="detailsClick.emit($event)" (deleteClick)="deleteClick.emit($event)"></app-user-single>
+    </div>
+</div>

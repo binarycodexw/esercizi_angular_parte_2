@@ -1,0 +1,11 @@
+#order-list {
+    background-color: #e1d5e7;
+    margin-top: 100px;
+    height: 70vh;
+    width: 45vw;
+    border-width: 1.5px;
+    border-color: #9673a6;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}

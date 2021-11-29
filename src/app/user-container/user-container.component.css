@@ -1,0 +1,27 @@
+#user-container {
+    background-color: #dae8fc;
+    border-width: 1.5px;
+    border-color: #8aa6cd;
+    border-style: solid;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+}
+
+#contenitore-p-usercontainer {
+    position:absolute;
+    width: 50vw;
+    height: 20px; 
+}
+
+p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}

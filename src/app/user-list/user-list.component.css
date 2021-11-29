@@ -1,0 +1,37 @@
+#user-list {
+    width: 24vw;
+    height: 70vh;
+    margin-top:  100px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction:column;
+    background-color: #d5e8d4;
+    border-width: 1.5px;
+    border-color: #9bc38a;
+    border-style: solid;
+}
+
+#ngforcontainer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 100px;
+    margin-right: 20px;
+  }
+
+
+p {
+    font-weight: 100;
+    margin-right: 20px;
+   }
+
+.bold-p {
+    font-weight: bold;
+}
+

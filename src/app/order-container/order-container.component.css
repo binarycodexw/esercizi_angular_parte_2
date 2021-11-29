@@ -1,0 +1,29 @@
+#order-container {
+    background-color: #f8cecc;
+    border-width: 1.5px;
+    border-color: #b85450;
+    border-style: solid;
+    width: 48vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+}
+
+#contenitore-p-ordercontainer {
+    position:absolute;
+    width: 50vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}

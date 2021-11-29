@@ -1,0 +1,5 @@
+<div id="user-container">
+    <div id="contenitore-p-usercontainer"><p>user-container.component</p></div>
+    <app-user-list [users]="users" (detailsClick)="selection($event)" (deleteClick)="deleteUser($event)"></app-user-list>
+    <app-user-detail  [userDetails]="user" (close)="closeDetails()"></app-user-detail>
+</div>
